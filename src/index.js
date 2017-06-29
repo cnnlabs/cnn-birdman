@@ -2,10 +2,10 @@
 
 const program = require('commander');
 const packageJSON = require('../package.json');
-const style = require('./style');
-const javascript = require('./javascript');
-const handlePrompt = require('./handle-prompt');
-const ascii = require('./ascii');
+const style = require('./style.js');
+const javascript = require('./javascript.js');
+const handlePrompt = require('./handle-prompt.js');
+const ascii = require('./ascii.js');
 
 function handleChecks(type, options) {
     options.ascii && ascii();
