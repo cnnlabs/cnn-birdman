@@ -5,14 +5,15 @@
 ### 1. Add `cnn-birdman` to your existing project.
 
 ```bash
-$ npm install -D -E bitbucket:vgtf/cnn-birdman
+$ npm install -D -E https://github.com/cnnlabs/cnn-birdman.git
 ```
 
 ### 2. Add to your existing npm scripts:
+This will automatically lint your src directory, but to choose different directory use -R option.
 
 ```diff
 "scripts": {
-+  "lint": "cnn-birdman run [style|javascript]" // optionally pass in specific check
++  "lint": "cnn-birdman [-R <directory>] run [style|javascript]" // optionally pass in specific
 }
 ```
 ### 3. Add a `.eslintrc` into your project
