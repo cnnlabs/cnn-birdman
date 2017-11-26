@@ -26,6 +26,6 @@
     "stylelint-config-cnn-starter-app": "https://github.com/cnnlabs/stylelint-config-cnn-starter-app.git"
   },
   "scripts": {
-    "lint": "cnn-birdman"
+    "lint": "./src/index.js run javascript"
   }
 }
