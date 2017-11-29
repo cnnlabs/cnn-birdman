@@ -1,6 +1,6 @@
 {
   "name": "cnn-birdman",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Code style guidelines for CNN projects",
   "author": "Matt Crutchfield <matt.crutchfield@turner.com>",
   "license": "Apache-2.0",
@@ -20,7 +20,6 @@
     "eslint-plugin-react": "6.10.0",
     "fs-extra": "2.0.0",
     "inquirer": "3.0.5",
-    "jest": "19.0.2",
     "minimist": "1.2.0",
     "stylelint": "7.9.0",
     "stylelint-config-cnn-starter-app": "https://github.com/cnnlabs/stylelint-config-cnn-starter-app.git"
