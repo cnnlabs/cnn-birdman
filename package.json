@@ -22,9 +22,13 @@
     "inquirer": "3.0.5",
     "minimist": "1.2.0",
     "stylelint": "7.9.0",
-    "stylelint-config-cnn-starter-app": "https://github.com/cnnlabs/stylelint-config-cnn-starter-app.git"
+    "stylelint-config-cnn-starter-app": "https://github.com/cnnlabs/stylelint-config-cnn-starter-app.git",
+    "snyk": "^1.317.0"
   },
   "scripts": {
-    "lint": "cnn-birdman"
-  }
+    "lint": "cnn-birdman",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
