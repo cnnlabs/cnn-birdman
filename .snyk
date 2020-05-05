@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - inquirer > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - babel-eslint > babel-types > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - babel-eslint > babel-traverse > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - eslint > table > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint > doiuse > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint > table > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - babel-eslint > babel-traverse > babel-types > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > stylelint > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > stylelint > doiuse > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > stylelint > postcss-reporter > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > stylelint > table > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
+    - stylelint-config-cnn-starter-app > stylelint-order > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2020-05-05T06:05:17.019Z'
