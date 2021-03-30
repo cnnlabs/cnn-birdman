@@ -21,7 +21,7 @@
     "fs-extra": "2.0.0",
     "inquirer": "3.0.5",
     "minimist": "1.2.0",
-    "stylelint": "7.9.0",
+    "stylelint": "13.8.0",
     "stylelint-config-cnn-starter-app": "https://github.com/cnnlabs/stylelint-config-cnn-starter-app.git"
   },
   "scripts": {
